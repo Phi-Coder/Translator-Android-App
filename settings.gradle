@@ -1,0 +1,2 @@
+rootProject.name='SpeechTranslator'
+include ':app'

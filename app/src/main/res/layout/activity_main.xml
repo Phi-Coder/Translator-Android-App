@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/translateBtn"
+        android:layout_width="216dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="5dp"
+        android:background="#6FDD29"
+        android:text="Translate \n via \n speech"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/cameratranslate"
+        android:layout_width="216dp"
+        android:layout_height="136dp"
+        android:layout_below="@id/translateBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="#6FDD29"
+        android:text="Translate Text \n via \n Camera"
+        android:textSize="24sp" />
+
+</RelativeLayout>
